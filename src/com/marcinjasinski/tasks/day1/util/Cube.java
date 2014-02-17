@@ -3,13 +3,19 @@ package com.marcinjasinski.tasks.day1.util;
 import java.util.Random;
 
 /**
- *
+ * @author Marcin Jasinski <mkjasinski@gmail.com>
  */
 public class Cube {
     protected int min;
     protected int max;
     protected Random random;
 
+    /**
+     * Constructor
+     *
+     * @param min min value
+     * @param max max value
+     */
     public Cube(int min, int max) {
         this.min = min;
         this.max = max;
